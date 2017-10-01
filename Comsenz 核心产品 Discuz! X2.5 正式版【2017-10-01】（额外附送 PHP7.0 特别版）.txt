@@ -1,0 +1,50 @@
+产品介绍
+Discuz! X2.5 在继承和完善 Discuz! X2.0 的基础上，针对“系统架构”、“负载性能”等几大方面，进行了全面升级。
+
+下载地址 
+
+简体中文GBK
+http://download.comsenz.com/DiscuzX/2.5/Discuz_X2.5_SC_GBK.zip
+
+繁体中文 BIG5
+http://download.comsenz.com/DiscuzX/2.5/Discuz_X2.5_TC_BIG5.zip
+
+简体 UTF8
+http://download.comsenz.com/DiscuzX/2.5/Discuz_X2.5_SC_UTF8.zip
+
+繁体 UTF8
+http://download.comsenz.com/DiscuzX/2.5/Discuz_X2.5_TC_UTF8.zip
+
+
+-----------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------额外附送 PHP7.0 特别版：
+
+此版本只发一版，且不再更新，仅供 Discuz! 粉丝们珍藏
+
+简体中文GBK
+http://download.comsenz.com/DiscuzX/2.5/Discuz_X2.5_PHP7.0_SC_GBK.zip
+
+简体 UTF8
+http://download.comsenz.com/DiscuzX/2.5/Discuz_X2.5_PHP7.0_SC_UTF8.zip
+
+说明：
+
+全新安装：请参照以往版本的安装过程进行，上传程序，并执行 http://你的域名/论坛/install/ 
+
+------------------------------------------------------------------------------------------------
+
+
+升级： 
+1. DiscuzX 程序  1.0, 1.5 2.0 ， 2.5Beta， 2.5RC
+1）备份数据库 
+2）建立文件夹 old，旧程序除了 data ，  config， uc_client, uc_server 目录以外的程序移动进入 old目录中
+3） 上传 2.5 程序（压缩包中 upload 目录中的文件）， 如上传时候提示覆盖目录，请选择“是”
+4）上传安装包 utility 目录中的 update.php 到论坛 install 目录，删除 install 目录中的index.php
+
+执行 http://你的域名/论坛路径/install/update.php
+
+参照提示进行升级即可。升级时间随着数据的大小和服务器性能而变， 依据测试，10G左右的论坛，从 2.0 升级值 2.5 大约需 1.5-2.5 个小时。如果你的版本更老一些，升级的时间消耗的会更多些。
+
+升级完毕，进入后台，更新缓存，并测试功能。
+升级成功后，old目录中的文件可以删除了。
